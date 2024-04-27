@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient( 45deg , orange , pink);
+}
+
+.out {
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width : 100%;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color: purple;
+    color : azure;
+    border-radius : 25px;
+    height : 10vh;
+    min-height : 50px;
+    border : none;
+    font-size: 20px;
+    text-align: center;
+    padding-left : 2%;
+    padding-right: 2%;
+    box-shadow: 2px 2px 5px lime;
+}
+
+button:hover{
+    box-shadow : 3px 3px 15px lime;
+}
+
+h1{
+    color : blue;
+    text-align: center;
+    font-size: 40px;
+}
+select {
+    background-color: yellow;
+    color : darkblue;
+    box-shadow: 2px 2px 5px black;
+    height : 10vh;
+    min-height : 50px;
+    border-radius : 25px;
+    border : none;
+    margin : 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left : 2%;
+    padding-right: 2%;
+}
+
+select:hover {
+    height : 11vh;
+    min-height : 51px;
+    box-shadow : 3px 3px 15px black;
+}
+
+option {
+    background-color: goldenrod;
+    color : darkblue;
+    font-size: 15px;
+    font-weight: bolder;
+    height : 10vh;
+    min-height : 50px;
+    box-shadow: 2px 2px 5px black;
+}
+
+ul {
+    width : 75%;
+}
+
+li {
+    border : none;
+    font-size: 150%;
+    font-weight: bolder;
+    width : 95%;
+    height : 10vh;
+    min-height : 50px;
+    background-image: linear-gradient( 45deg , rgb(82, 194, 238) , rgb(75, 255, 75) );
+    color : darkgreen;
+    box-shadow: 2px 2px 5px black;
+    padding : 2%;
+    margin : 1px;
+
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover {
+    height : 11vh;
+    min-height : 51px;
+    box-shadow : 3px 3px 15px black;
+    translate: 2px -2px;
+}
+
